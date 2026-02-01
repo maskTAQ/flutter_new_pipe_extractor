@@ -49,14 +49,14 @@ file(MAKE_DIRECTORY ${ASSETS_DIR})
 string(TOLOWER "${CMAKE_SYSTEM_PROCESSOR}" ARCH)
 if(ARCH MATCHES "aarch64" OR ARCH MATCHES "arm64")
   set(NEWPIPECLI_FILE "NewPipeCLI-linux-arm64.zip")
-  set(NEWPIPECLI_SHA256 "bec554ba6c3e32684b5a632d82b9360929d7c4e3284c8bf53809be0d9c4918da")
+  set(NEWPIPECLI_SHA256 "d63275cf8961f8809b90a86d789ce8b12dd6128af603d18b1946c54d478702be")
 else()
   set(NEWPIPECLI_FILE "NewPipeCLI-linux-x64.zip")
-  set(NEWPIPECLI_SHA256 "af77591ed3b210db20ba88c7f2f47bf5f2ef3c85d1fab7d318108f32ff665654")
+  set(NEWPIPECLI_SHA256 "eaba1d12f5a0613bb78e3eecb2c397b12e0756d13b7ef8accb9d1c018d93d235")
 endif()
 
 set(NEWPIPECLI_ZIP "${ASSETS_DIR}/${NEWPIPECLI_FILE}")
-set(NEWPIPECLI_URL "https://github.com/KRTirtho/NewPipeCLI/releases/download/v0.1.0/${NEWPIPECLI_FILE}")
+set(NEWPIPECLI_URL "https://github.com/KRTirtho/NewPipeCLI/releases/download/v0.1.1/${NEWPIPECLI_FILE}")
 
 # Default: need to download
 set(SHOULD_DOWNLOAD TRUE)
