@@ -4,8 +4,8 @@ version: 0.1.0
 homepage: https://github.com/KRTirtho/flutter_new_pipe_extractor
 
 environment:
-  sdk: ^3.6.1
-  flutter: '>=3.3.0'
+  sdk: ^3.5.0
+  flutter: '>=3.24.0'
 
 dependencies:
   archive: ^4.0.7
